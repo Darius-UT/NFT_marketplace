@@ -7,11 +7,10 @@
 </div>
 
 <div align="center">
- <img  src="https://cdn-icons-png.flaticon.com/512/6298/6298900.png" height=250>
- <img  src="https://png.pngtree.com/png-clipart/20241007/original/pngtree-3d-vietnam-national-day-illustration-on-transopsarent-background-png-image_16235714.png" height=250>
- <h1>KỸ NĂNG CHUYÊN NGHIỆP CHO KỸ SƯ</h1>
+ <img  src="https://preview.redd.it/byu19bghqg651.jpg?width=640&crop=smart&auto=webp&s=c20d1b339bd763c4b6ad40c54525c2dbfbff0b75" height=250>
+ <h1>Chợ phiên NFT nghệ thuật truyền thống Việt Nam</h1>
 </div>
-
+  
 ## Giới thiệu
 
 - Học kỳ: 242
