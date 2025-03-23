@@ -1,54 +1,30 @@
-# React + TypeScript + Vite
+<!-- markdownlint-disable MD033 -->
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div style="text-align: center;">
+  <img src="https://hcmut.edu.vn/img/nhanDienThuongHieu/bk_name_en.png" width="700"/>
+</div>
 
-Currently, two official plugins are available:
+<div style="text-align: center;">
+ <img  src="https://cdn-icons-png.flaticon.com/512/6298/6298900.png" height=250>
+ <img  src="https://png.pngtree.com/png-clipart/20241007/original/pngtree-3d-vietnam-national-day-illustration-on-transopsarent-background-png-image_16235714.png" height=250>
+ </div>
+  
+<div style="text-align: center;">
+ <h1>KỸ NĂNG CHUYÊN NGHIỆP CHO KỸ SƯ</h1>
+</div>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Giới thiệu
 
-## Expanding the ESLint configuration
+- Học kỳ: 242
+- Giảng viên hướng dẫn: TS. Nguyễn Hoàng Thiên Khôi
+- Nhóm: 14 - L07
+- Thành viên:
+  - Nguyễn Lê Hoàng Phúc
+  - Phan Văn Hội
+  - Nguyễn Khắc Duy
+  - Lê Vĩnh Nghiệp
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Mục tiêu của dự án
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+- Tạo nền tảng giao dịch hiện đại, chuyên nghiệp, nhưng vẫn giữ được bản sắc văn hóa Việt Nam
+- Xây dựng cộng đồng nghệ thuật số kết nối, đẩy mạnh việc bảo tồn và lan tỏa giá trị Nghệ thuật truyền thống.
