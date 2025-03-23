@@ -1,15 +1,14 @@
 <!-- markdownlint-disable MD033 -->
 
-<div style="text-align: center;">
-  <img src="https://hcmut.edu.vn/img/nhanDienThuongHieu/bk_name_en.png" width="700"/>
+<div align="center">
+ <a href="https://hcmut.edu.vn/">
+  <img  src="https://hcmut.edu.vn/img/nhanDienThuongHieu/bk_name_en.png"  alt="HCMUT logo"  width="700"/>
+ </a>
 </div>
 
-<div style="text-align: center;">
+<div align="center">
  <img  src="https://cdn-icons-png.flaticon.com/512/6298/6298900.png" height=250>
  <img  src="https://png.pngtree.com/png-clipart/20241007/original/pngtree-3d-vietnam-national-day-illustration-on-transopsarent-background-png-image_16235714.png" height=250>
- </div>
-  
-<div style="text-align: center;">
  <h1>KỸ NĂNG CHUYÊN NGHIỆP CHO KỸ SƯ</h1>
 </div>
 
