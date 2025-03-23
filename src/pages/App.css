@@ -1,0 +1,330 @@
+@font-face {
+  font-family: "TitleFont";
+  src: url("../assets/fonts/BigShouldersStencil/variants/BigShouldersStencil_60pt-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "SubTitleFont";
+  src: url("../assets/fonts/GrechenFuemen-Regular.ttf")
+}
+
+#root {
+  --primary: #A81C07;
+  --subPrimary: #DA9100;
+  --secondary: #E97451;
+  --lightBackground: #EFDECD;
+
+  --titleFontSize: 120px;
+  --subTitleFontSize: 60px;
+  background-color: var(--lightBackground);
+}
+
+html {
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+
+.section {
+  min-height: 100vh;
+  max-width: 100vw;
+  padding: 0 10vw 0 10vw;
+  position: relative;
+}
+
+.imageContainer {
+  position: relative;
+  user-select: none;
+  background-image: linear-gradient(10deg, #faede6 40%, rgb(255, 235, 179));
+  overflow-y: visible;
+}
+
+.leftMountain {
+  position: absolute;
+  width: 80%;
+  left: -20%;
+  top: 30%;
+}
+
+.cloudy {
+  width: 80%;
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+}
+
+.rightMountain {
+  position: absolute;
+  width: 80%;
+  right: -8%;
+  top: 5%;
+}
+
+.tower {
+  position: absolute;
+  width: 40%;
+  right: -14%;
+  top: 12%;
+}
+
+.leftPerson {
+  position: absolute;
+  width: 10%;
+  left: 10%;
+  bottom: 13%;
+}
+
+.rightPerson {
+  position: absolute;
+  width: 10%;
+  left: 17%;
+  bottom: 10%;
+}
+
+.aboveSoil {
+  position: absolute;
+  width: 100%;
+  bottom: -20%;
+  left: -1%;
+}
+
+.aboveSoil2 {
+  position: absolute;
+  width: 50%;
+  bottom: 0;
+  left: 0%;
+}
+
+.grass1 {
+  position: absolute;
+  width: 20%;
+  bottom: 5%;
+  left: 0%;
+}
+
+.grass2 {
+  position: absolute;
+  width: 10%;
+  bottom: 4%;
+  left: 20%;
+}
+
+.birds {
+  position: absolute;
+  width: 10%;
+  top: 20%;
+  left: 50%;
+}
+
+.redLine {
+  position: absolute;
+  opacity: 0.5;
+  z-index: 200;
+  transition-duration: 500ms;
+}
+.redLine:hover {
+  opacity: 1;
+  transition-duration: 500ms;
+}
+
+.redLine1 {
+  width: 30%;
+  bottom: -40%;
+  left: 35%;
+}
+
+.redLine2 {
+  width: 30%;
+  bottom: -20%;
+  left: 10%;
+}
+
+.redLine3 {
+  width: 35%;
+  bottom: 8%;
+  left: 5%;
+}
+
+
+
+.mainText {
+  font-family: TitleFont;
+  font-size: var(--titleFontSize);
+  color: var(--primary);
+  user-select: text;
+
+  position: absolute;
+  top: 3%;
+  left: 8%;
+  transition-duration: 1000ms;
+  text-shadow: 3px 3px 3px rgba(214, 131, 7, 0.804);
+  z-index: 100;
+}
+
+.mainText:hover {
+  text-shadow: -3px 3px 3px rgba(214, 131, 7, 0.804);
+  transition-duration: 300ms;
+}
+
+.subMainText {
+  color: var(--subPrimary);
+  font-family: SubTitleFont;
+  font-size: var(--subTitleFontSize);
+
+  position: absolute;
+  right: 20%;
+  bottom: 25%;
+  z-index: 100;
+  user-select: text;
+}
+
+#vietnamText {
+  font-size: var(--titleFontSize);
+
+  color: var(--primary);
+  bottom: 0%;
+}
+
+@keyframes moveClouds {
+  from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(200%);
+  }
+}
+
+.floating_cloud {
+  position: absolute;
+  z-index: 50;
+}
+
+.floating_cloud1 {
+  top: -15%;
+  width: 100%;
+  animation: moveClouds 50s linear infinite;
+}
+
+.floating_cloud2 {
+  top: 40%;
+  width: 30%;
+  animation: moveClouds 70s linear infinite;
+}
+
+.floating_cloud3 {
+  width: 60%;
+  bottom: -30%;
+  animation: moveClouds 80s linear infinite;
+  opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+.titleText {
+  color: var(--primary);
+  font-family: SubTitleFont;
+  font-size: var(--titleFontSize);
+  text-align: start;
+  align-self: flex-end;
+}
+
+.contentText {
+  color: black;
+  align-self: start;
+}
+
+/* .illustratorImage {
+  box-shadow: 4px 4px 4px #ccc;
+} */
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.illustratorBackground {
+  animation: rotate 50s linear infinite;
+  opacity: 0.5;
+  transition-duration: 500ms;
+}
+.illustratorBackground:hover {
+  opacity: 1;
+  transition-duration: 300ms;
+}
+
+
+/* MISSION Section */
+.missionSection {
+  margin-top: 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  column-gap: 5%;
+}
+
+.titleTextMissionSection {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.contentTextMissionSection {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  max-width: 80%;
+}
+
+.illustratorImageMissionSection {
+  grid-column: 2/3;
+  grid-row: 1/3;
+  width: 90%;
+  z-index: 100;
+}
+
+/* .frameBackground {
+  
+} */
+
+/* VALUE Section */
+.valueSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  column-gap: 10%;
+}
+
+.titleTextValueSection {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  line-height: 0.8;
+  text-align: end;
+}
+
+.contentTextValueSection {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  text-align: end;
+}
+
+.illustratorImageValueSection {
+  grid-column: 1/2;
+  grid-row: 1/3;
+  justify-self: center;
+  width: 65%;
+  z-index: 100;
+}
+
+.trongDong {
+  width: 90%;
+}
